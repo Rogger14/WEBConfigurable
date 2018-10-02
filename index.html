@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pagina Administrable</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+        touch: true,
+        pauseOnAction: false,
+        pauseOnHover: false,
+    });
+    });
+        
+    </script>
+</head>
+    <body style="background-color:#D3D8C8">
+    <header>
+        <section>
+        <div class="container-header-all">
+        <div class="container-columnas">
+            <div class="colu1">
+                <div class="rowi1">
+                <img src="imagenes/cupcake_delivery.png" alt="">
+                <h1>Slogan</h1>
+                </div>
+            </div>
+            
+            <div class="colu2">
+                <div class="rowi">
+                <img src="iconos/mensaje1.png">
+                <h1>paginaadministrable@upsjb.com</h1>
+                <img src="iconos/telefono1.png">
+                <h1>(056)264010</h1>
+                </div>
+            <div class="rowi">
+            <a href="https://mail.google.com">
+                <img src="iconos/fb_icono.png">
+                </a>
+                <a href="https://mail.google.com">
+                <img src="iconos/twiter1.png">
+                </a>
+
+                <a href="https://mail.google.com">
+                <img src="iconos/instagram1.png">
+                </a>
+
+                <a href="https://mail.google.com">
+                <img src="iconos/google_mas.png">
+                </a>
+                <a href="https://mail.google.com">
+                <img src="iconos/youtube1.png">
+                </a>
+                <a href="https://mail.google.com">
+                <img src="iconos/linkedin1.png">
+                </a>
+            </div>
+        </div>
+        </div>
+        </div>
+            </section>
+		<div class="contenedor">
+			<input type="checkbox" id="menu-bar">
+			<label class="icon-menu" for="menu-bar"> </label>
+			<nav class="menu">
+
+				<a href="index.html">Inicio</a>
+				<a href="Html/Nosotros.html">Nosotros</a>
+			</nav>
+		</div>
+	</header>
+        <div class="flexslider">  
+    <ul class="slides"> 
+        <li>
+            <img src="imagenes/azul.jpg" alt="">
+            <section class="flex-slider">
+            <p>IMAGEN 1</p></section>
+        </li>
+        <li>
+            <img src="imagenes/oceano.jpg" alt="">
+            <section class="flex-slider">
+            <p>IMAGEN 2</p></section>
+        </li>
+        <li>
+            <img src="imagenes/verde.jpg" alt="">
+            <section class="flex-slider">
+            <p>IMAGEN 3</p></section>
+        </li>
+        </ul>
+    </div>
+    <main>
+        <div class="contenedor_body_all">
+        <div class="columnas">
+
+        <div class="colum_imagenes">
+            <h1>Conoce mas sobre nosotros</h1>  
+            <div class="fila1">
+            <img src="imagenes/verde.jpg">
+            <img src="imagenes/verde.jpg">
+        </div>
+        <div class="fila1">
+            <img src="imagenes/verde.jpg">
+            <img src="imagenes/verde.jpg">
+            </div>
+         </div>
+            
+        <div class="colum_noticias">
+            <h1 >Noticias</h1>
+            <div class="fila2">
+            
+        <div class="noticias_columna">
+            <img src="imagenes/oceano.jpg" alt="" class="noticias_img">
+            <div class="noticias_descripcion">
+              <h2 class="noticias_titulo">Programación</h2>
+              <div class="noticias_txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, dignissimos.</div>
+            </div>
+                </div>
+          <div class="noticias_columna">
+            <img src="imagenes/oceano.jpg" alt="" class="noticias_img">
+            <div class="noticias_descripcion">
+              <h2 class="noticias_titulo">Diseño Web</h2>
+              <div class="noticias_txt">Accusantium rem quia doloribus soluta ullam pariatur alias, quas dolorum.</div>
+            </div>
+          </div>
+                </div>
+        </div>
+        </div>
+    </div>
+		
+	</main>
+     <footer>
+        <div class="container-footer-all">
+    <div class="container-body">
+        <div class="colum1">
+            <h1>Nosotros</h1>
+            
+            <p>
+                mmmmmmmmkjhjkjh kjjjjdddddddjhj
+                hjhjhjhjjkjdlkj
+                flkfdlkjfklfjf
+                jcnnvnvnvnvn
+                vnvnvnvnvnv
+                vnvnvnv
+                nvnvnvnvnv
+            </p>
+            
+        </div>
+        <div class="colum2">
+            <h1>Redes Sociales</h1>
+            
+            <div class="row">
+            <img src="iconos/fb_icono.png">
+            <a href="https://mail.google.com">Facebook </a>
+            </div>
+            <div class="row">
+            <img src="iconos/twiter1.png">
+             <a href="https://mail.google.com">Twiter </a>
+            </div>
+            <div class="row">
+            <img src="iconos/instagram1.png">
+             <a href="https://mail.google.com">Instagram </a>
+            </div>
+            <div class="row">
+            <img src="iconos/google_mas.png">
+             <a href="https://mail.google.com">Google+</a>
+            </div>
+            <div class="row">
+            <img src="iconos/youtube1.png">
+             <a href="https://mail.google.com">YouTube </a>
+            </div>
+            <div class="row">
+            <img src="iconos/linkedin1.png">
+             <a href="https://mail.google.com">Linkedin </a>
+            </div>
+        </div>
+        
+        <div class="colum3">
+            <h1> Contactanos</h1>
+            <div class="row2">
+                <img src="iconos/mensaje1.png">
+                <label>paginaadministrable@upsjb.com</label>
+            </div>
+            <div class="row2">
+                <img src="iconos/telefono1.png">
+                <label> 928467529</label>
+            </div>
+        </div>
+        </div>
+        <div class="contenedor-footer">
+			<p class="copy">Copyright &copy; 2018 Pagina Administrable</p>
+        </div>
+            
+        </div>
+    </footer>
+       
+    
+    </body>
+</html>

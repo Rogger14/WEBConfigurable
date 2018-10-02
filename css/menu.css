@@ -1,0 +1,112 @@
+#menu-bar {
+	display: none;
+}
+header label{
+	float: right;
+	font-size: 24px;
+	margin: 5px 0;
+	cursor: pointer;
+}
+.menu{
+	position:absolute;
+	top: 170px;
+	left: 0;
+	width: 100%;
+	height: 30vh;
+	background: #282828;
+	transition: all 0.5s;
+	transform: translateX(-100%);
+    z-index: 99;
+}
+.menu a {
+    
+    width: auto;
+	display: block;
+	color: #fff;
+	height: 50px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(51,51,51,9);
+
+
+}
+.menu a:hover {
+
+	background: #66CB17 ;
+}
+
+#menu-bar:checked ~ .menu {
+
+	transform: translate(0%);
+}
+@media (min-width: 1024px){
+	.menu{
+		position: static;
+		height: auto;
+		transform: translateX(0%);
+		float: left;
+		display: flex;
+	}
+	.menu a{
+		border: none;
+	}
+		header label{
+		display: none;
+	}
+}
+/*-----Quitar Iconos del menu ---*/
+@media screen and (max-width: 800px){
+    .rowi{
+       transform: translateX(-190%);
+    }
+  
+}
+
+/*-------------Estilos de menu---------------*/
+
+header{
+    width: 100%;
+    background: #282828;
+    color: white;
+    padding: 9px;
+}
+
+/*-------------Estilos de menu iconos--------*/ 
+.container-header-all{
+    width: 100%;
+	margin: auto;
+}
+.container-columnas{
+    display: flex;
+    justify-content: space-between;
+}
+.colu1 img{
+    width: 230px;
+    height: 110px;
+    margin-left: 10px;
+    margin: 5px;
+}
+.rowi1{
+    display: flex;
+}
+.rowi1 h1{
+    margin: auto;
+}
+.colu2{
+    height: 50px;
+}
+.rowi{
+    display: flex;
+}
+.rowi img{
+    width: 37px;
+    height: 37px;
+    margin-left: 14px;
+    margin-top: 7px;
+}
+.rowi h1{
+    margin-top: 16px;
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+}

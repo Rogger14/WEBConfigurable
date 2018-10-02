@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url(menu.css);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(../imagenes/);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.contenedor {
+	width: 98%;
+	margin: auto;
+}
+h1 {
+	float: left;
+}
+header .contenedor {
+	
+	display: table;
+}
+
+/*-----------------Estilos del Body---------*/
+.container-body-all{
+    width: 100%;
+    margin: auto;
+}
+.columnas{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.colum_imagenes h1{
+    font-size: 25px;
+    padding-left: 10px;
+    padding: 20px;
+	color: #343533;
+
+}
+
+.fila1 img{
+    width: 320px;
+    height: 250px;
+    margin-left: 10px;
+    padding :8px;;
+    
+}
+
+.noticias_columna {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+ 
+}
+
+.colum_noticias h1{
+    font-size: 28px;
+    margin: 0px 0;
+	color: #343533;
+}
+.noticias_descripcion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    width: 60%;
+    height: 98%;
+    padding: 5px;
+}
+
+.noticias_titulo {
+    font-size: 20px;
+    margin: 5px 0;
+}    
+
+.fila2 img {
+    width: 330px;
+    height: 300px;
+}
+@media(min-width:480px) {
+ 
+.noticias_titulo {
+    width: 100%;
+}
+.noticias {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+.noticias_columna {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 650px){
+    .columnas{
+        flex-wrap: wrap;
+    }
+    .colum_noticias{
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+}
+
+/*-----------------Estilos de footer---------*/
+footer{
+    width: 100%;
+    background: #282828;
+    color: white;
+    padding: 40px;
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 22px;
+}
+.colum1 p{
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+    height: 100px;
+    width: 350px;
+    margin-top: 35px;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h1{
+    font-size: 22px;
+}
+.row{
+    margin-top: 35px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row a{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+.row a:hover{
+    font-size: 15px;
+    text-decoration: none;
+    color: #5DADE2;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+.colum3 {
+    max-width: 400px;
+    
+}
+.colum3 h1{
+    font-size: 22px;
+}
+.row2 {
+    margin-top: 35px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-width: 140px;
+}
+.container-footer{
+    width: 100%;
+    background: rgba(51,51,51,9);
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1100px){
+    .container-body{
+        flex-wrap: wrap;
+    }
+    .colum2, .colum3{
+        margin-top: 35px;
+    }
+}
+
+/*-------------Estilos de Pie Pagina-----------*/
+footer .contenedor-footer{
+	width: 100%;
+    color: #fff;
+	flex-wrap: wrap;
+	justify-content: center;
+    padding-top: 80px;
+    background: #282828;
+}
+.copy {
+	font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 1024px){
+	.contenedor{
+		width: 1000px;
+	}
+}
+
+
+
+
