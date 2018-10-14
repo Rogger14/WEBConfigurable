@@ -62,7 +62,7 @@
 		<section class="row menu">
 			<div class="col-12">
 				<div class="btn-group" role="group" aria-label="Basic example">
-				
+
 				<div class="dropdown opcion_menu">
 				  <button class="btn btn-link items dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				    Acceso
@@ -126,7 +126,7 @@
 				<div class="card">
 				  <div class="card-header">
 				    Actualizar o Eliminar Usuario
-				  
+
 				  </div>
 				  <div class="card-body">
 				    <form>
@@ -167,7 +167,7 @@
 					      		<input type="password" class="form-control" id="E-mail" placeholder="Escriba Una Contraseña">
 					    	</div>
 					  	</div>
-					 
+
 
 					<button class="btn btn-danger text-center" style="background: green ; border:green"><img src="icono_config/icono_limpiar.png">&nbsp Limpiar</button>
 					<button class="btn btn-danger text-center" style="background: green ; border:green"><img src="icono_config/icono_actualizar.png">&nbsp Actualizar</button>
