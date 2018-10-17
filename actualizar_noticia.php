@@ -117,7 +117,7 @@
 			<div class="col-md-8">
 				<div class="card">
 				  <div class="card-header">
-				    	Actualizar Noticia
+				    	Registro Noticia
 				  </div>
 				  <div class="card-body">
 				    <form>
@@ -161,20 +161,20 @@
 					    	<label for="posicion" class="col-sm-3 col-form-label">Posicion:</label>
 					    	<div class="col-sm-2">
 					      		<select name="posicion" id="posicion" class="form-control">
-					      			<option value="LIS">LIS</option>
-					      			<option value="LDS">LDS</option>
-					      			<option value="LID">LID</option>
-					      			<option value="LDI">LDI</option>
+					      			<option value="LIS">1</option>
+					      			<option value="LDS">2</option>
+					      			<option value="LID">3</option>
+					      			<option value="LDI">4</option>
 					      		</select>
 					    	</div>
 					  	</div>
 
-					  	<div class="form-group row">
+					 <!-- 	<div class="form-group row">
 					    	<label for="contenido" class="col-sm-3 col-form-label">Contenido de la Noticia:</label>
 					    	<div class="col-sm-8">
 					      		<textarea name="contenido" id="contenido" class="form-control" rows="5"></textarea>
 					    	</div>
-					  	</div>
+					  	</div>       -->
 					  	
 					  	<div class="form-group row">
 					  		<div class="col-sm-3"></div>
