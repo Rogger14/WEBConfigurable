@@ -134,7 +134,7 @@
 				    		<tr>
 				    			<td><img src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fdefinicionde.hugex.net%2Fwp-content%2Fuploads%2F2015%2F07%2Fe1001e86903d5fccba2a7e83a0547bd4.jpg&container=blogger&gadget=a&rewriteMime=image%2F*" width="150" height="150"></td>
 				    			<td class=""> Descripción de la imagen</td>
-				    			<td>LID</td>
+				    			<td>1</td>
 				    			<td>
 				    				<button class="btn btn-link"><img src="icono_config/icono_eliminar.png"></button><br>
 				    				<button class="btn btn-link"><img src="icono_config/icono_modificar.png"></button>
@@ -143,7 +143,7 @@
 				    		<tr>
 				    			<td><img src="https://mott.pe/noticias/wp-content/uploads/2016/11/Janette-Asche.jpg" width="150" height="150"></td>
 				    			<td>Descripción de la imagen</td>
-				    			<td>LDS</td>
+				    			<td>2</td>
 				    			<td>
 				    				<button class="btn btn-link"><img src="icono_config/icono_eliminar.png"></button> <br>
 				    				<button class="btn btn-link"><img src="icono_config/icono_modificar.png"></button>
@@ -152,7 +152,7 @@
 				    		<tr>
 				    			<td><img src="https://www.paisajesimagenes.com/wp-content/uploads/paisajes-de-paris1.jpg" width="150" height="150"></td>
 				    			<td>Descripción de la imagen</td>
-				    			<td>LIS</td>
+				    			<td>3</td>
 				    			<td>
 				    				<button class="btn btn-link"><img src="icono_config/icono_eliminar.png"></button><br>
 				    				<button class="btn btn-link"><img src="icono_config/icono_modificar.png"></button>
